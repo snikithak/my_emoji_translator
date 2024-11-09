@@ -32,8 +32,11 @@ for item in sentence:
             answer = emoji_dict.get(key)
         else:
             answer += item
+            print(answer)
 
 print (answer)
+
+#replace function?
 #  for key in emoji_dict:
 #     print(emoji_dict.get(key))
 
